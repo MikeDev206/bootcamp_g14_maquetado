@@ -12,3 +12,24 @@ p {
 	color: green;
 	font-size: larger;
 }
+
+
+.caja {
+	border: 1px solid #fff;
+	height: 50px;
+	width: 200px;
+	margin: 20px;
+	padding: 20px;
+}
+
+.caja #cajaRoja {
+	border: 1px solid red;
+}
+
+.contenedor {
+	margin: 45px 20px 10px 2px;
+	padding: 50px 50px;
+	border: 1px solid #333;
+	width: 300px;
+	height: 500px;
+}
