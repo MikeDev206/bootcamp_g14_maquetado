@@ -46,13 +46,14 @@ form {
 
 .form-container {
 	width: 320px;
-	height: 450px;
-	background: #ffffff;
-	color: #333333;
+	height: 380px;
+	max-width: 26.5rem;
+	background-color: #fff;
+	color: rgba(0,0,0,.8);
 	border: 1px solid transparent;
 	border-radius: 6px;
 	box-shadow: 0 0.0625rem 0.125rem 0 rgb(0 0 0 / 15%);
-	margin: 0.125rem auto 0
+	margin: 0.125rem auto 0;
 }
 
 main .form-title {
@@ -61,6 +62,6 @@ main .form-title {
 	font-weight: 600;
 	letter-spacing: .0125rem;
 	overflow-wrap: break-word;
-	margin: 1.6rem 1.6rem 0 1.6rem;
-  padding: 1.5rem 0.9rem 0 1.8rem;
+	margin: 0 1.2rem 0 1.2rem;
+  padding: 1.5rem 25px 1.5rem 25px;
 }
