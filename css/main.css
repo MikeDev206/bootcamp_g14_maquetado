@@ -191,6 +191,7 @@ footer a {
 	font-weight: bold;
 	text-decoration: none;
 	color: #373737;
+	cursor: pointer;
 }
 
 footer .footer-copyright {
