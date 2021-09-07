@@ -40,8 +40,8 @@ main .wrap {
 form {
 	display: flex;
   flex-direction: column;
-  margin: 1.6rem;
-  padding: 1.5rem;
+  margin: 0 1.6rem 1.6rem 1.6rem;
+  padding: 0 1.6rem 1.5rem 1.6rem
 }
 
 .form-container {
@@ -64,4 +64,71 @@ main .form-title {
 	overflow-wrap: break-word;
 	margin: 0 1.2rem 0 1.2rem;
   padding: 1.5rem 25px 1.5rem 25px;
+}
+
+
+label {
+	font-weight: 100;
+  line-height: 1.0714285714em;
+  color: rgba(0,0,0,.8);
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: 'Montserrat';
+  font-size: 10px;
+  transition: .2s ease-out;
+  padding: 0px;
+}
+
+input[type="text"] {
+	padding: 10px 10px;
+  margin-bottom: 1rem;
+  border: 1px solid lightgray;
+	border-radius: 6px;
+}
+
+
+.continue {
+	display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 198px;
+  border: transparent;
+  border-radius: 6px;
+  background: #3483fa;
+	color: #ffffff;
+  margin: 10px 0px;
+	cursor: pointer;
+}
+
+.continue:hover {
+	background: #2968c8;
+}
+
+.continue a {
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.register {
+	display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 198px;
+  border: transparent;
+  border-radius: 6px;
+  background: #ffffff;
+  margin: 10px 0px;
+	cursor: pointer;
+}
+
+.register:hover {
+	background:#ebf3fd;
+}
+
+.register a {
+	text-decoration: none;
+	color: #3483fa;
 }
