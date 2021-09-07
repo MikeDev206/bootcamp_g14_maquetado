@@ -132,3 +132,7 @@ input[type="text"] {
 	text-decoration: none;
 	color: #3483fa;
 }
+
+.border {
+	border-top: 1px solid grey;
+}
