@@ -3,7 +3,10 @@ body {
 	width: 100%;
 	margin: 0;
 	box-sizing: border-box;
-	background: #e6e6e6;
+	background: #ededed;
+	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -150,4 +153,50 @@ input[type="text"] {
 	text-decoration: none;
 	font-weight: bold;
 	color: #3483fa;
+}
+
+.recaptcha-terms-container {
+	font-family: 'Roboto', sans-serif;
+  color: #666666;
+  font-size: .75rem;
+	font-weight: bolder;
+  text-align: center;
+  margin: 1.5rem 0 5.5rem;
+  padding-top: 27rem;
+	margin: 0;
+}
+
+.recaptcha-terms-container a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 10px;
+	font-weight: bolder;
+	color: #739efc;
+}
+
+footer {
+	background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+	padding: 2rem;
+}
+
+
+footer a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #373737;
+}
+
+footer .footer-copyright {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bolder;
+	color: #8f8f8f;
+	padding-top: 10px;
 }
