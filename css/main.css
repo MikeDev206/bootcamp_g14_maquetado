@@ -45,6 +45,9 @@ form {
 }
 
 .form-container {
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
 	width: 320px;
 	height: 380px;
 	max-width: 26.5rem;
@@ -130,9 +133,21 @@ input[type="text"] {
 
 .register a {
 	text-decoration: none;
+	font-weight: bold;
 	color: #3483fa;
 }
 
 .border {
-	border-top: 1px solid grey;
+	border-top: 1px solid #e5e5e5;
+	padding-top: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.border a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #3483fa;
 }
