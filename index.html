@@ -5,61 +5,51 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="./css/main.css">
 		<link rel="shortcut icon" href="./assets/icons/nficon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="css/main.css">
 		<title>Netflix Clone</title>
 	</head>
 
 	<body>
-		<header class="header-container">
-			<div class="logo">
-				<img src="./assets/img/netflix-logo.png" alt="netflix-logo">
-			</div>
+		<header>
 			<div class="navbar">
-				<div class="language">
-					<div class="lang-menu">
-						<div class="selected-lang">
-							English
-						</div>
-						<ul>
-							<li>
-								<a href="#" class="de">German</a>
-							</li>
-							<li>
-								<a href="#" class="en">English</a>
-							</li>
-							<li>
-								<a href="#" class="fr">French</a>
-							</li>
-							<li>
-								<a href="#" class="ar">Arabic</a>
-							</li>
-						</ul>
-					</div>
+				<img src="./assets/img/netflix-logo.png" alt="netflix-logo" class="logo">
+				<div class="language-switcher">
+					<img src="mundito" alt="mundito">
+					<select name="" id="" class="switcher">Español</select>
+					<img src="arrow" alt="arrow">
 				</div>
-				<div class="login">
-					<button>
-						<a href="https://www.netflix.com/mx/login">
-							Sign in
-						</a>
-					</button>
-				</div>
+				<a href="" class="login">Iniciar sesión</a>
 			</div>
 		</header>
-		<section class="banner">
-			<img src="./assets/img/hero-background.jpg" alt="hero-bg">
-			<div class="hero-section">
-				<div class="heading">
-					<h2>Unlimited movies, TV shows and more.</h2>
-					<h5>Watch anywhere. Cancel anytime.</h5>
-					<p>Ready to watch? Enter your email to create or restart your membership.</p>
-				</div>
-				<div class="email">
-					<input type="email" placeholder="Email address">
-					<a href="#">Get started</a>
+		<section class="hero">
+			<h1 class="title">Películas y series ilimitadas y mucho más</h1>
+			<h2 class="subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
+			<p>¿Quiéres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+			<input type="email">
+			<button class="begin">Comenzar > </button>
+		</section>
+		<section class="devices">
+			<h1 class="title">Disfruta en tu TV.</h1>
+			<p>Ve en smart TV, Play Station, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más...</p>
+			<div class="full-img-tele">
+				<img src="./assets/img/tv.png" alt="tv">
+				<video src="./assets/videos/video-tv-1.m4v"></video>
+			</div>
+		</section>
+		<section class="download">
+			<h1 class="title">Descarga tus series para verlas offline.</h1>
+			<p>Guarda tu contenido fav y ten siempre algo que ver</p>
+			<div class="full-img-stranger">
+				<img src="./assets/img/mobile-stranger.jpg" alt="stranger">
+				<div class="wrapper">
+					<img src="./assets/img/boxshot-stranger-things.png" alt="maybe">
+					<p></p>
+					<p></p>
+					<video src=""></video>
 				</div>
 			</div>
 		</section>
+		
 	</body>
-
 </html>
