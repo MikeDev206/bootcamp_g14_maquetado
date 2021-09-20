@@ -5,32 +5,39 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+			integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 		<link rel="shortcut icon" href="./assets/icons/nficon.ico" type="image/x-icon">
 		<link rel="stylesheet" href="css/main.css">
 		<title>Netflix Clone</title>
 	</head>
 
 	<body>
-		<header>
-			<div class="navbar">
-				<img src="./assets/img/netflix-logo.png" alt="netflix-logo" class="logo">
-				<div class="language-switcher">
-					<img src="mundito" alt="mundito">
-					<select name="" id="" class="switcher">Español</select>
-					<img src="arrow" alt="arrow">
+		<header class="showcase">
+			<div class="showcase-top">
+				<img src="./assets/img/netflix-logo.png" alt="netflix-logo">
+				<div class="right-nav">
+					<div class="language-switcher">
+						<i class="fas fa-globe"></i>
+						<select name="" id="" class="switcher">
+							<option selected lang="es" value="/mx/" data-language="es" data-country="MX">
+								Español
+							</option>
+						</select>
+					</div>
+					<a href="#" class="login">Iniciar sesión</a>
 				</div>
-				<a href="" class="login">Iniciar sesión</a>
+			</div>
+			<div class="showcase-hero-content">
+				<h1 class="title">Películas y series ilimitadas y mucho más</h1>
+				<h2 class="subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
+				<div class="card">
+					<p>¿Quiéres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+					<input type="email">
+					<button class="begin"> Comenzar > </button>
+				</div>
 			</div>
 		</header>
-		<section class="hero">
-			<h1 class="title">Películas y series ilimitadas y mucho más</h1>
-			<h2 class="subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
-			<div class="card">
-				<p>¿Quiéres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
-				<input type="email">
-				<button class="begin">Comenzar > </button>
-			</div>
-		</section>
 		<section class="devices">
 			<h1 class="title">Disfruta en tu TV.</h1>
 			<p>Ve en smart TV, Play Station, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y más...</p>
@@ -175,20 +182,30 @@
 				</div>
 				<div class="footer-list">
 					<ul>
-						<li>Something 1</li>
-						<li>Something 2</li>
-						<li>Something 3</li>
-						<li>Something 4</li>
-						<li>Something 5</li>
-						<li>Something 6</li>
-						<li>Something 7</li>
+						<li>Preguntas frecuentes</li>
+						<li>Centro de ayuda</li>
+						<li>Cuenta</li>
+						<li>Prensa</li>
+						<li>Relaciones con inversionistas</li>
+						<li>Empleo</li>
+						<li>Canjear tarjetas de regalo</li>
+						<li>Comprar tarjetas de regalo</li>
+						<li>Formas de ver</li>
+						<li>Términos de uso</li>
+						<li>Privacidad</li>
+						<li>Preferencias de cookies</li>
+						<li>Información corporativa</li>
+						<li>Contáctanos</li>
+						<li>Prueba de velocidad</li>
+						<li>Avisos legales</li>
+						<li>Solo en Netflix</li>
 					</ul>
 				</div>
 			</div>
 			<div class="language-switcher">
-				<img src="mundito" alt="mundito">
-				<select name="" id="" class="switcher">Español</select>
-				<img src="arrow" alt="arrow">
+				<img src="./assets/icons/globe.svg" alt="mundito">
+				<select name="language-switcher" id="" class="switcher">Español</select>
+				<img src="./assets/icons/down-arrow.svg" alt="arrow">
 			</div>
 		</footer>
 	</body>
