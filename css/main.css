@@ -319,18 +319,11 @@ option {
 	align-items: center;
 	flex-wrap: wrap;
 	padding-bottom: 3rem;
-}
-
-.footer-divider {
-	height: 0;
-	width: 100%;
-	border-top: 1px solid transparent;
-}
-
-.site-footer {
 	margin: 0 auto;
 	width: 90%;
 }
+
+
 
 .footer-question {
 	padding: 0;
