@@ -59,7 +59,6 @@ img {
 }
 
 .showcase-top {
-	position: relative;
 	height: 90px;
 	display: flex;
 	justify-content: space-between;
@@ -118,6 +117,7 @@ option {
 	padding: 0.5rem 0.575rem;
 	margin: auto 12px;
 	font-weight: 400;
+	white-space: nowrap;
 }
 
 .email-form-title {

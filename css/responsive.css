@@ -1,3 +1,41 @@
-@media screen and (min-width: 320px) and (max-width: 480px) {
-		
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	body {
+		font-size: 14px;
+	}
+
+	/* .showcase {
+		width: auto;
+	} */
+
+	.showcase-top-bg {
+		background: rgba(0, 0, 0, 0);
+		box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #0000009c;
+	}
+
+	.showcase-top {
+		justify-content: space-around;
+		width: 100%;
+	}
+
+	.showcase-top img {
+		height: auto;
+		width: 120px;
+		margin: 0 auto;
+		padding: 0 10px 0 0;
+	}
+
+	.right-nav {
+		width: 50%;
+	}
+
+	.login {
+		width: auto;
+		height: 25px;
+		padding: 0.25rem 0.5rem;
+		margin: 0 2px auto 2px;
+	}
+
+	.showcase-hero-content {
+		padding: 15px 0;
+	}
 }
