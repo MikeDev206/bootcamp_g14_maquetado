@@ -14,6 +14,15 @@ body {
 	color: #999;
 }
 
+/* hero-container */
+
+.hero-container {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+/* hero-container */
+
 ul {
 	list-style: none;
 }
@@ -187,22 +196,35 @@ option {
 
 /* /////////////////// section main content\\\\\\\\\\\\\\\\\\ */
 
-/* devices */
+/* story-cards */
+
+.story-cards {
+	margin: 0 auto;
+}
 
 .main-content {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	padding: 70px 45px;
+	position: relative;
 	border-bottom: 8px solid #222;
+	padding: 50px 5%;
+	margin-bottom: 0;
+	background: 0 0;
+	color: #fff;
+}
+
+.card-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .main-section-text {
-	width: 50%;
-	height: auto;
-	margin-left: 3rem;
-	color: #fff;
+	width: 52%;
+	height: 100%;
+	flex: 0 1 auto;
+	padding: 0 3rem 0 0;
+	z-index: 3;
 }
 
 .main-section-text h1 {
@@ -216,27 +238,43 @@ option {
 	font-weight: 400;
 }
 
-.devices-card {
+.card-animation {
+	width: 48%;
+	height: 100%;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 45%;
+	flex: 0 1 auto;
+	box-sizing: border-box;
 }
 
-.devices-card video {
-	position: absolute;
-	width: auto;
-	height: 233px;
-	right: 9%;
-	top: 124%;
-}
-
-.devices-card img {
-	width: 100%;
+.card-image-container {
+	margin: -10% -5% -5% 0;
 	position: relative;
+	overflow: hidden;
 }
 
-/* devices */
+.card-image-container img {
+	position: relative;
+	z-index: 2;
+}
+
+.animation-container {
+	width: 100%;
+	height: 100%;
+	max-width: 73%;
+	max-height: 54%;
+	position: absolute;
+	top: 46%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.animation-container video {
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	vertical-align: baseline;
+	object-fit: contain;
+}
 
 /* download */
 
@@ -278,32 +316,10 @@ img .img-stranger {
 	display: flex;
 	flex-direction: column;
 }
-
 /* download */
 
-/* anywhere */
-
-.anywhere-card {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	width: 45%;
-}
-
-.anywhere-card video {
-	position: absolute;
-	width: auto;
-	height: 195px;
-	right: 12%;
-	top: 291%;
-}
-
-.anywhere-card img {
-	width: 100%;
-	position: relative;
-}
-
-/* anywhere */
+/* story-cards */
+/* /////////////////// section main content\\\\\\\\\\\\\\\\\\ */
 
 .faq-section {
 	display: flex;
